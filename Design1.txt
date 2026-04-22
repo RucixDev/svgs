@@ -1,0 +1,31 @@
+### High-Security Disc Detainer Lock Specification
+This design document outlines a springless, high-security disc detainer mechanism. The lock relies on rotational alignment of a disc stack rather than vertical pin movement, rendering traditional picking tools ineffective.
+### Component Architecture
+| Component | Material | Function |
+|---|---|---|
+| **Faceplate** | Hardened Carbon Steel | Drill resistance and physical warding gate. |
+| **Keyway** | Machined Alloy | Complex, non-linear profile restricts tool insertion. |
+| **Disc Stack** | Stainless Steel | Series of rotating tumblers; determines key bitting. |
+| **Friction Washers** | Phosphor Bronze | Provides necessary tension for discs to stay set. |
+| **Sidebar** | Hardened Steel | The primary locking element; retracts when gates align. |
+| **Drive Cam** | Hardened Steel | Transfers rotational force from the key to the plug. |
+### Mechanical Design Details
+#### 1. Restricted Keyway & Warding
+ * **Profile:** The keyway features an "S" or "Z" tiered vertical profile. The key must possess corresponding longitudinal grooves to pass the warding.
+ * **Gatekeeper Disc:** The front-most disc is a non-rotational "Gatekeeper." It requires a specific initial engagement depth and alignment tab on the key to verify the key type before reaching the operational stack.
+#### 2. The Disc Stack (Tumblers)
+ * **Design:** 12–16 discs, depending on the required "long-ish" length. Each disc has a central aperture for the key and a peripheral "True Gate."
+ * **True vs. False Gates:** Each disc contains one "True Gate" (a deep, square notch) and multiple "False Gates" (shallow, U-shaped notches).
+ * **Springless Operation:** The discs are held in position by friction washers between them. They do not rely on springs, making the lock impervious to vibration or "bumping."
+#### 3. Sidebar Interaction
+ * **Locking Logic:** The Sidebar is a bar running parallel to the disc stack. Under normal conditions, the sidebar is pressed into the shell by the rotation of the discs.
+ * **Anti-Pick Resistance:** If a lock picker applies rotational tension to the plug, the sidebar is forced against the discs. If the discs are not perfectly aligned, the sidebar catches in a "False Gate." Because these gates mimic the True Gate, the mechanism provides deceptive feedback, locking the sidebar in a false state and halting further progress.
+#### 4. Clutch & Drive Mechanism
+ * **Double-Sided Integration:** The key drives the stack from the center. Upon insertion, the key's angular bitting rotates the discs to specific, distinct angular positions.
+ * **Clutch Engagement:** The rear "Drive Cam" is disconnected from the tailpiece until the sidebar fully retracts. Only when every disc is aligned at the "True Gate" position does the sidebar drop, allowing the cam to engage the tailpiece and rotate the cylinder.
+### Operational Sequence
+ 1. **Insertion:** The key slides past the hardened faceplate warding.
+ 2. **Setting:** The key's angular cuts rotate the discs. Because the key is double-sided, it engages two sets of bitting simultaneously, balancing the load on the disc stack.
+ 3. **Alignment:** When the key is turned, the discs rotate. The "True Gates" align in a straight line along the disc perimeter.
+ 4. **Unlock:** The sidebar drops into the aligned channel (True Gates).
+ 5. **Rotation:** The sidebar clearing the shell allows the plug to rotate, engaging the drive cam and unlocking the mechanism.
