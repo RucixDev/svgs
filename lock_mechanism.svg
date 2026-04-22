@@ -1,0 +1,481 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600">
+<rect width="900" height="600" fill="white"/>
+
+<!-- TITLE -->
+<text x="450" y="28" font-family="sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="black">High-Security Disc Detainer Lock — Mechanism Visualization</text>
+
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!-- SECTION 1: FACEPLATE &amp; WARDING (Left) -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<rect x="30" y="55" width="120" height="480" rx="4" fill="white" stroke="black" stroke-width="2"/>
+<text x="90" y="72" font-family="sans-serif" font-size="9" text-anchor="middle" fill="black" font-weight="bold">FACEPLATE</text>
+<text x="90" y="83" font-family="sans-serif" font-size="7" text-anchor="middle" fill="black">(Hardened Carbon Steel)</text>
+
+<!-- Warding lines -->
+<line x1="30" y1="120" x2="150" y2="120" stroke="black" stroke-width="0.5" stroke-dasharray="3,3"/>
+<line x1="30" y1="200" x2="150" y2="200" stroke="black" stroke-width="0.5" stroke-dasharray="3,3"/>
+<line x1="30" y1="320" x2="150" y2="320" stroke="black" stroke-width="0.5" stroke-dasharray="3,3"/>
+<line x1="30" y1="390" x2="150" y2="390" stroke="black" stroke-width="0.5" stroke-dasharray="3,3"/>
+
+<!-- Keyway profile (Z-tiered) -->
+<path d="M 50 90 L 130 90 L 130 150 L 75 185 L 75 260 L 130 295 L 130 360 L 70 400 L 70 460 L 50 460 Z" fill="#f5f5f5" stroke="black" stroke-width="1.5"/>
+<text x="90" y="84" font-family="sans-serif" font-size="6.5" text-anchor="middle" fill="black">S-PROFILE KEYWAY</text>
+
+<!-- Warding gate -->
+<rect x="100" y="418" width="30" height="28" fill="white" stroke="black" stroke-width="1.2"/>
+<text x="115" y="436" font-family="sans-serif" font-size="6" text-anchor="middle" fill="black">WARD</text>
+
+<!-- Key being inserted -->
+<rect x="35" y="245" width="110" height="10" fill="white" stroke="black" stroke-width="1"/>
+<!-- Key bittings -->
+<rect x="45" y="240" width="8" height="5" fill="white" stroke="black" stroke-width="0.8"/>
+<rect x="60" y="237" width="8" height="8" fill="white" stroke="black" stroke-width="0.8"/>
+<rect x="75" y="241" width="8" height="4" fill="white" stroke="black" stroke-width="0.8"/>
+<rect x="90" y="238" width="8" height="7" fill="white" stroke="black" stroke-width="0.8"/>
+<rect x="105" y="242" width="8" height="3" fill="white" stroke="black" stroke-width="0.8"/>
+<text x="90" y="262" font-family="sans-serif" font-size="6" text-anchor="middle" fill="black">KEY BITTINGS</text>
+
+<!-- Gatekeeper disc indicator -->
+<rect x="130" y="140" width="18" height="60" fill="white" stroke="black" stroke-width="1"/>
+<text x="139" y="175" font-family="sans-serif" font-size="5" text-anchor="middle" fill="black" transform="rotate(-90,139,175)">GATEKEEPER</text>
+
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!-- SECTION 2: DISC STACK (Center cross-section) -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<rect x="195" y="50" width="215" height="480" rx="5" fill="white" stroke="black" stroke-width="2"/>
+<text x="302" y="65" font-family="sans-serif" font-size="9" text-anchor="middle" fill="black" font-weight="bold">DISC STACK — CROSS SECTION</text>
+
+<!-- Sidebar bar (left of discs) -->
+<rect x="197" y="58" width="8" height="464" fill="white" stroke="black" stroke-width="1.5"/>
+<text x="195" y="52" font-family="sans-serif" font-size="7" text-anchor="end" fill="black">SIDEBAR</text>
+
+<!-- Disc stack — 14 discs -->
+<!-- Disc centers at y = 90, 122, 154, 186, 218, 250, 282, 314, 346, 378, 410, 442, 474, 506 -->
+<!-- Outer radius=95, inner radius=12 -->
+
+<!-- DISC 1 -->
+<circle cx="302" cy="90" r="95" fill="white" stroke="black" stroke-width="1.2"/>
+<circle cx="302" cy="90" r="12" fill="white" stroke="black" stroke-width="1"/>
+<circle cx="302" cy="90" r="18" fill="none" stroke="black" stroke-width="0.5"/>
+<!-- True Gate at ~15° (right-top) -->
+<rect x="391" y="87" width="14" height="14" fill="white" stroke="black" stroke-width="1.2" transform="rotate(15,398,94)"/>
+<!-- False Gates -->
+<circle cx="244" cy="150" r="7" fill="white" stroke="black" stroke-width="0.8"/>
+<line x1="238" y1="150" x2="250" y2="150" stroke="black" stroke-width="1"/>
+<!-- Sidebar pin -->
+<circle cx="202" cy="90" r="5" fill="white" stroke="black" stroke-width="1"/>
+<circle cx="202" cy="90" r="2" fill="black"/>
+<!-- Friction washer -->
+<line x1="210" y1="82" x2="395" y2="82" stroke="black" stroke-width="0.8" stroke-dasharray="2,2"/>
+
+<!-- DISC 2 -->
+<circle cx="302" cy="122" r="95" fill="white" stroke="black" stroke-width="1.2"/>
+<circle cx="302" cy="122" r="12" fill="white" stroke="black" stroke-width="1"/>
+<circle cx="302" cy="122" r="18" fill="none" stroke="black" stroke-width="0.5"/>
+<!-- True Gate at ~195° (left) -->
+<rect x="207" y="119" width="14" height="14" fill="white" stroke="black" stroke-width="1.2" transform="rotate(195,214,126)"/>
+<!-- False Gates -->
+<circle cx="388" cy="179" r="7" fill="white" stroke="black" stroke-width="0.8"/>
+<line x1="382" y1="179" x2="394" y2="179" stroke="black" stroke-width="1"/>
+<circle cx="244" cy="182" r="7" fill="white" stroke="black" stroke-width="0.8"/>
+<line x1="238" y1="182" x2="250" y2="182" stroke="black" stroke-width="1"/>
+<!-- Sidebar pin -->
+<circle cx="202" cy="122" r="5" fill="white" stroke="black" stroke-width="1"/>
+<circle cx="202" cy="122" r="2" fill="black"/>
+<!-- Friction washer -->
+<line x1="210" y1="114" x2="395" y2="114" stroke="black" stroke-width="0.8" stroke-dasharray="2,2"/>
+
+<!-- DISC 3 -->
+<circle cx="302" cy="154" r="95" fill="white" stroke="black" stroke-width="1.2"/>
+<circle cx="302" cy="154" r="12" fill="white" stroke="black" stroke-width="1"/>
+<circle cx="302" cy="154" r="18" fill="none" stroke="black" stroke-width="0.5"/>
+<!-- True Gate at ~120° -->
+<rect x="220" y="244" width="14" height="14" fill="white" stroke="black" stroke-width="1.2" transform="rotate(120,227,251)"/>
+<!-- False Gates -->
+<circle cx="388" cy="211" r="7" fill="white" stroke="black" stroke-width="0.8"/>
+<line x1="382" y1="211" x2="394" y2="211" stroke="black" stroke-width="1"/>
+<circle cx="216" cy="211" r="7" fill="white" stroke="black" stroke-width="0.8"/>
+<line x1="210" y1="211" x2="222" y2="211" stroke="black" stroke-width="1"/>
+<!-- Sidebar pin -->
+<circle cx="202" cy="154" r="5" fill="white" stroke="black" stroke-width="1"/>
+<circle cx="202" cy="154" r="2" fill="black"/>
+<!-- Friction washer -->
+<line x1="210" y1="146" x2="395" y2="146" stroke="black" stroke-width="0.8" stroke-dasharray="2,2"/>
+
+<!-- DISC 4 -->
+<circle cx="302" cy="186" r="95" fill="white" stroke="black" stroke-width="1.2"/>
+<circle cx="302" cy="186" r="12" fill="white" stroke="black" stroke-width="1"/>
+<circle cx="302" cy="186" r="18" fill="none" stroke="black" stroke-width="0.5"/>
+<!-- True Gate at ~270° (bottom) -->
+<rect x="207" y="273" width="14" height="14" fill="white" stroke="black" stroke-width="1.2" transform="rotate(270,214,280)"/>
+<!-- False Gates -->
+<circle cx="382" cy="138" r="7" fill="white" stroke="black" stroke-width="0.8"/>
+<line x1="376" y1="138" x2="388" y2="138" stroke="black" stroke-width="1"/>
+<circle cx="222" cy="243" r="7" fill="white" stroke="black" stroke-width="0.8"/>
+<line x1="216" y1="243" x2="228" y2="243" stroke="black" stroke-width="1"/>
+<!-- Sidebar pin -->
+<circle cx="202" cy="186" r="5" fill="white" stroke="black" stroke-width="1"/>
+<circle cx="202" cy="186" r="2" fill="black"/>
+<!-- Friction washer -->
+<line x1="210" y1="178" x2="395" y2="178" stroke="black" stroke-width="0.8" stroke-dasharray="2,2"/>
+
+<!-- DISC 5 -->
+<circle cx="302" cy="218" r="95" fill="white" stroke="black" stroke-width="1.2"/>
+<circle cx="302" cy="218" r="12" fill="white" stroke="black" stroke-width="1"/>
+<circle cx="302" cy="218" r="18" fill="none" stroke="black" stroke-width="0.5"/>
+<!-- True Gate at ~75° -->
+<rect x="383" y="208" width="14" height="14" fill="white" stroke="black" stroke-width="1.2" transform="rotate(75,390,215)"/>
+<!-- False Gates -->
+<circle cx="216" cy="275" r="7" fill="white" stroke="black" stroke-width="0.8"/>
+<line x1="210" y1="275" x2="222" y2="275" stroke="black" stroke-width="1"/>
+<circle cx="382" cy="129" r="7" fill="white" stroke="black" stroke-width="0.8"/>
+<line x1="376" y1="129" x2="388" y2="129" stroke="black" stroke-width="1"/>
+<!-- Sidebar pin -->
+<circle cx="202" cy="218" r="5" fill="white" stroke="black" stroke-width="1"/>
+<circle cx="202" cy="218" r="2" fill="black"/>
+<!-- Friction washer -->
+<line x1="210" y1="210" x2="395" y2="210" stroke="black" stroke-width="0.8" stroke-dasharray="2,2"/>
+
+<!-- DISC 6 -->
+<circle cx="302" cy="250" r="95" fill="white" stroke="black" stroke-width="1.2"/>
+<circle cx="302" cy="250" r="12" fill="white" stroke="black" stroke-width="1"/>
+<circle cx="302" cy="250" r="18" fill="none" stroke="black" stroke-width="0.5"/>
+<!-- True Gate at ~330° -->
+<rect x="389" y="242" width="14" height="14" fill="white" stroke="black" stroke-width="1.2" transform="rotate(330,396,249)"/>
+<!-- False Gates -->
+<circle cx="216" cy="307" r="7" fill="white" stroke="black" stroke-width="0.8"/>
+<line x1="210" y1="307" x2="222" y2="307" stroke="black" stroke-width="1"/>
+<circle cx="382" cy="161" r="7" fill="white" stroke="black" stroke-width="0.8"/>
+<line x1="376" y1="161" x2="388" y2="161" stroke="black" stroke-width="1"/>
+<!-- Sidebar pin -->
+<circle cx="202" cy="250" r="5" fill="white" stroke="black" stroke-width="1"/>
+<circle cx="202" cy="250" r="2" fill="black"/>
+<!-- Friction washer -->
+<line x1="210" y1="242" x2="395" y2="242" stroke="black" stroke-width="0.8" stroke-dasharray="2,2"/>
+
+<!-- DISC 7 -->
+<circle cx="302" cy="282" r="95" fill="white" stroke="black" stroke-width="1.2"/>
+<circle cx="302" cy="282" r="12" fill="white" stroke="black" stroke-width="1"/>
+<circle cx="302" cy="282" r="18" fill="none" stroke="black" stroke-width="0.5"/>
+<!-- True Gate at ~45° -->
+<rect x="368" y="192" width="14" height="14" fill="white" stroke="black" stroke-width="1.2" transform="rotate(45,375,199)"/>
+<!-- False Gates -->
+<circle cx="216" cy="339" r="7" fill="white" stroke="black" stroke-width="0.8"/>
+<line x1="210" y1="339" x2="222" y2="339" stroke="black" stroke-width="1"/>
+<circle cx="216" cy="225" r="7" fill="white" stroke="black" stroke-width="0.8"/>
+<line x1="210" y1="225" x2="222" y2="225" stroke="black" stroke-width="1"/>
+<!-- Sidebar pin -->
+<circle cx="202" cy="282" r="5" fill="white" stroke="black" stroke-width="1"/>
+<circle cx="202" cy="282" r="2" fill="black"/>
+<!-- Friction washer -->
+<line x1="210" y1="274" x2="395" y2="274" stroke="black" stroke-width="0.8" stroke-dasharray="2,2"/>
+
+<!-- DISC 8 -->
+<circle cx="302" cy="314" r="95" fill="white" stroke="black" stroke-width="1.2"/>
+<circle cx="302" cy="314" r="12" fill="white" stroke="black" stroke-width="1"/>
+<circle cx="302" cy="314" r="18" fill="none" stroke="black" stroke-width="0.5"/>
+<!-- True Gate at ~165° -->
+<rect x="225" y="404" width="14" height="14" fill="white" stroke="black" stroke-width="1.2" transform="rotate(165,232,411)"/>
+<!-- False Gates -->
+<circle cx="388" cy="365" r="7" fill="white" stroke="black" stroke-width="0.8"/>
+<line x1="382" y1="365" x2="394" y2="365" stroke="black" stroke-width="1"/>
+<circle cx="382" cy="263" r="7" fill="white" stroke="black" stroke-width="0.8"/>
+<line x1="376" y1="263" x2="388" y2="263" stroke="black" stroke-width="1"/>
+<!-- Sidebar pin -->
+<circle cx="202" cy="314" r="5" fill="white" stroke="black" stroke-width="1"/>
+<circle cx="202" cy="314" r="2" fill="black"/>
+<!-- Friction washer -->
+<line x1="210" y1="306" x2="395" y2="306" stroke="black" stroke-width="0.8" stroke-dasharray="2,2"/>
+
+<!-- DISC 9 -->
+<circle cx="302" cy="346" r="95" fill="white" stroke="black" stroke-width="1.2"/>
+<circle cx="302" cy="346" r="12" fill="white" stroke="black" stroke-width="1"/>
+<circle cx="302" cy="346" r="18" fill="none" stroke="black" stroke-width="0.5"/>
+<!-- True Gate at ~225° -->
+<rect x="222" y="436" width="14" height="14" fill="white" stroke="black" stroke-width="1.2" transform="rotate(225,229,443)"/>
+<!-- False Gates -->
+<circle cx="388" cy="397" r="7" fill="white" stroke="black" stroke-width="0.8"/>
+<line x1="382" y1="397" x2="394" y2="397" stroke="black" stroke-width="1"/>
+<circle cx="388" cy="295" r="7" fill="white" stroke="black" stroke-width="0.8"/>
+<line x1="382" y1="295" x2="394" y2="295" stroke="black" stroke-width="1"/>
+<!-- Sidebar pin -->
+<circle cx="202" cy="346" r="5" fill="white" stroke="black" stroke-width="1"/>
+<circle cx="202" cy="346" r="2" fill="black"/>
+<!-- Friction washer -->
+<line x1="210" y1="338" x2="395" y2="338" stroke="black" stroke-width="0.8" stroke-dasharray="2,2"/>
+
+<!-- DISC 10 -->
+<circle cx="302" cy="378" r="95" fill="white" stroke="black" stroke-width="1.2"/>
+<circle cx="302" cy="378" r="12" fill="white" stroke="black" stroke-width="1"/>
+<circle cx="302" cy="378" r="18" fill="none" stroke="black" stroke-width="0.5"/>
+<!-- True Gate at ~105° -->
+<rect x="225" y="468" width="14" height="14" fill="white" stroke="black" stroke-width="1.2" transform="rotate(105,232,475)"/>
+<!-- False Gates -->
+<circle cx="216" cy="435" r="7" fill="white" stroke="black" stroke-width="0.8"/>
+<line x1="210" y1="435" x2="222" y2="435" stroke="black" stroke-width="1"/>
+<circle cx="382" cy="429" r="7" fill="white" stroke="black" stroke-width="0.8"/>
+<line x1="376" y1="429" x2="388" y2="429" stroke="black" stroke-width="1"/>
+<!-- Sidebar pin -->
+<circle cx="202" cy="378" r="5" fill="white" stroke="black" stroke-width="1"/>
+<circle cx="202" cy="378" r="2" fill="black"/>
+<!-- Friction washer -->
+<line x1="210" y1="370" x2="395" y2="370" stroke="black" stroke-width="0.8" stroke-dasharray="2,2"/>
+
+<!-- DISC 11 -->
+<circle cx="302" cy="410" r="95" fill="white" stroke="black" stroke-width="1.2"/>
+<circle cx="302" cy="410" r="12" fill="white" stroke="black" stroke-width="1"/>
+<circle cx="302" cy="410" r="18" fill="none" stroke="black" stroke-width="0.5"/>
+<!-- True Gate at ~285° -->
+<rect x="210" y="501" width="14" height="14" fill="white" stroke="black" stroke-width="1.2" transform="rotate(285,217,508)"/>
+<!-- False Gates -->
+<circle cx="388" cy="461" r="7" fill="white" stroke="black" stroke-width="0.8"/>
+<line x1="382" y1="461" x2="394" y2="461" stroke="black" stroke-width="1"/>
+<circle cx="216" cy="467" r="7" fill="white" stroke="black" stroke-width="0.8"/>
+<line x1="210" y1="467" x2="222" y2="467" stroke="black" stroke-width="1"/>
+<!-- Sidebar pin -->
+<circle cx="202" cy="410" r="5" fill="white" stroke="black" stroke-width="1"/>
+<circle cx="202" cy="410" r="2" fill="black"/>
+<!-- Friction washer -->
+<line x1="210" y1="402" x2="395" y2="402" stroke="black" stroke-width="0.8" stroke-dasharray="2,2"/>
+
+<!-- DISC 12 -->
+<circle cx="302" cy="442" r="95" fill="white" stroke="black" stroke-width="1.2"/>
+<circle cx="302" cy="442" r="12" fill="white" stroke="black" stroke-width="1"/>
+<circle cx="302" cy="442" r="18" fill="none" stroke="black" stroke-width="0.5"/>
+<!-- True Gate at ~15° -->
+<rect x="391" y="439" width="14" height="14" fill="white" stroke="black" stroke-width="1.2" transform="rotate(15,398,446)"/>
+<!-- False Gates -->
+<circle cx="216" cy="499" r="7" fill="white" stroke="black" stroke-width="0.8"/>
+<line x1="210" y1="499" x2="222" y2="499" stroke="black" stroke-width="1"/>
+<circle cx="216" cy="385" r="7" fill="white" stroke="black" stroke-width="0.8"/>
+<line x1="210" y1="385" x2="222" y2="385" stroke="black" stroke-width="1"/>
+<!-- Sidebar pin -->
+<circle cx="202" cy="442" r="5" fill="white" stroke="black" stroke-width="1"/>
+<circle cx="202" cy="442" r="2" fill="black"/>
+<!-- Friction washer -->
+<line x1="210" y1="434" x2="395" y2="434" stroke="black" stroke-width="0.8" stroke-dasharray="2,2"/>
+
+<!-- DISC 13 -->
+<circle cx="302" cy="474" r="95" fill="white" stroke="black" stroke-width="1.2"/>
+<circle cx="302" cy="474" r="12" fill="white" stroke="black" stroke-width="1"/>
+<circle cx="302" cy="474" r="18" fill="none" stroke="black" stroke-width="0.5"/>
+<!-- True Gate at ~180° -->
+<rect x="207" y="471" width="14" height="14" fill="white" stroke="black" stroke-width="1.2" transform="rotate(180,214,478)"/>
+<!-- False Gates -->
+<circle cx="388" cy="525" r="7" fill="white" stroke="black" stroke-width="0.8"/>
+<line x1="382" y1="525" x2="394" y2="525" stroke="black" stroke-width="1"/>
+<circle cx="388" cy="423" r="7" fill="white" stroke="black" stroke-width="0.8"/>
+<line x1="382" y1="423" x2="394" y2="423" stroke="black" stroke-width="1"/>
+<!-- Sidebar pin -->
+<circle cx="202" cy="474" r="5" fill="white" stroke="black" stroke-width="1"/>
+<circle cx="202" cy="474" r="2" fill="black"/>
+<!-- Friction washer -->
+<line x1="210" y1="466" x2="395" y2="466" stroke="black" stroke-width="0.8" stroke-dasharray="2,2"/>
+
+<!-- DISC 14 -->
+<circle cx="302" cy="506" r="95" fill="white" stroke="black" stroke-width="1.2"/>
+<circle cx="302" cy="506" r="12" fill="white" stroke="black" stroke-width="1"/>
+<circle cx="302" cy="506" r="18" fill="none" stroke="black" stroke-width="0.5"/>
+<!-- True Gate at ~60° -->
+<rect x="349" y="406" width="14" height="14" fill="white" stroke="black" stroke-width="1.2" transform="rotate(60,356,413)"/>
+<!-- False Gates -->
+<circle cx="216" cy="563" r="7" fill="white" stroke="black" stroke-width="0.8"/>
+<line x1="210" y1="563" x2="222" y2="563" stroke="black" stroke-width="1"/>
+<circle cx="216" cy="449" r="7" fill="white" stroke="black" stroke-width="0.8"/>
+<line x1="210" y1="449" x2="222" y2="449" stroke="black" stroke-width="1"/>
+<!-- Sidebar pin -->
+<circle cx="202" cy="506" r="5" fill="white" stroke="black" stroke-width="1"/>
+<circle cx="202" cy="506" r="2" fill="black"/>
+<!-- No friction washer after last disc -->
+
+<!-- Disc number labels -->
+<text x="187" y="93" font-family="monospace" font-size="5.5" text-anchor="end" fill="black">1</text>
+<text x="187" y="125" font-family="monospace" font-size="5.5" text-anchor="end" fill="black">2</text>
+<text x="187" y="157" font-family="monospace" font-size="5.5" text-anchor="end" fill="black">3</text>
+<text x="187" y="189" font-family="monospace" font-size="5.5" text-anchor="end" fill="black">4</text>
+<text x="187" y="221" font-family="monospace" font-size="5.5" text-anchor="end" fill="black">5</text>
+<text x="187" y="253" font-family="monospace" font-size="5.5" text-anchor="end" fill="black">6</text>
+<text x="187" y="285" font-family="monospace" font-size="5.5" text-anchor="end" fill="black">7</text>
+<text x="187" y="317" font-family="monospace" font-size="5.5" text-anchor="end" fill="black">8</text>
+<text x="187" y="349" font-family="monospace" font-size="5.5" text-anchor="end" fill="black">9</text>
+<text x="187" y="381" font-family="monospace" font-size="5.5" text-anchor="end" fill="black">10</text>
+<text x="187" y="413" font-family="monospace" font-size="5.5" text-anchor="end" fill="black">11</text>
+<text x="187" y="445" font-family="monospace" font-size="5.5" text-anchor="end" fill="black">12</text>
+<text x="187" y="477" font-family="monospace" font-size="5.5" text-anchor="end" fill="black">13</text>
+<text x="187" y="509" font-family="monospace" font-size="5.5" text-anchor="end" fill="black">14</text>
+
+<!-- Disc stack end cap -->
+<line x1="205" y1="520" x2="400" y2="520" stroke="black" stroke-width="1.5"/>
+
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!-- SECTION 3: PLUG / CYLINDER (Front view) -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<circle cx="545" cy="295" r="110" fill="white" stroke="black" stroke-width="2"/>
+<text x="545" y="172" font-family="sans-serif" font-size="9" text-anchor="middle" fill="black" font-weight="bold">PLUG / CYLINDER — FRONT VIEW</text>
+
+<!-- Moat (antidrill ring) -->
+<circle cx="545" cy="295" r="105" fill="none" stroke="black" stroke-width="1"/>
+
+<!-- Inner disc stack outline -->
+<circle cx="545" cy="295" r="88" fill="none" stroke="black" stroke-width="0.5" stroke-dasharray="4,4"/>
+
+<!-- Keyhole — bicentric shape -->
+<!-- Upper circle -->
+<circle cx="545" cy="278" r="20" fill="white" stroke="black" stroke-width="1.5"/>
+<!-- Lower circle -->
+<circle cx="545" cy="320" r="28" fill="white" stroke="black" stroke-width="1.5"/>
+<!-- Connecting slot -->
+<rect x="532" y="286" width="26" height="46" fill="white" stroke="black" stroke-width="1.5"/>
+<!-- Cross drill slot -->
+<rect x="541" y="275" width="8" height="60" fill="white" stroke="black" stroke-width="1"/>
+
+<!-- Cable or tailpiece indicator (right side) -->
+<circle cx="545" cy="295" r="40" fill="none" stroke="black" stroke-width="0.8"/>
+<text x="545" y="160" font-family="sans-serif" font-size="7" text-anchor="middle" fill="black">DRIVE CAM</text>
+
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!-- SECTION 4: OPERATIONAL SEQUENCE (Bottom) -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<line x1="30" y1="548" x2="890" y2="548" stroke="black" stroke-width="0.8" stroke-dasharray="6,4"/>
+<text x="450" y="542" font-family="sans-serif" font-size="8" text-anchor="middle" fill="black" font-weight="bold">OPERATIONAL SEQUENCE</text>
+
+<rect x="35" y="552" width="150" height="38" rx="3" fill="white" stroke="black" stroke-width="1"/>
+<text x="110" y="564" font-family="sans-serif" font-size="7.5" text-anchor="middle" fill="black" font-weight="bold">1. INSERTION</text>
+<text x="110" y="576" font-family="sans-serif" font-size="6" text-anchor="middle" fill="black">Key passes warding</text>
+<text x="110" y="586" font-family="sans-serif" font-size="6" text-anchor="middle" fill="black">Gatekeeper verifies key type</text>
+<line x1="185" y1="571" x2="198" y2="571" stroke="black" stroke-width="1"/>
+<polygon points="195,568 198,571 195,574" fill="black"/>
+
+<rect x="202" y="552" width="150" height="38" rx="3" fill="white" stroke="black" stroke-width="1"/>
+<text x="277" y="564" font-family="sans-serif" font-size="7.5" text-anchor="middle" fill="black" font-weight="bold">2. SETTING</text>
+<text x="277" y="576" font-family="sans-serif" font-size="6" text-anchor="middle" fill="black">Angular cuts rotate discs</text>
+<text x="277" y="586" font-family="sans-serif" font-size="6" text-anchor="middle" fill="black">Double-sided key balances load</text>
+<line x1="352" y1="571" x2="365" y2="571" stroke="black" stroke-width="1"/>
+<polygon points="362,568 365,571 362,574" fill="black"/>
+
+<rect x="369" y="552" width="150" height="38" rx="3" fill="white" stroke="black" stroke-width="1"/>
+<text x="444" y="564" font-family="sans-serif" font-size="7.5" text-anchor="middle" fill="black" font-weight="bold">3. ALIGNMENT</text>
+<text x="444" y="576" font-family="sans-serif" font-size="6" text-anchor="middle" fill="black">True Gates align in straight</text>
+<text x="444" y="586" font-family="sans-serif" font-size="6" text-anchor="middle" fill="black">channel along perimeter</text>
+<line x1="519" y1="571" x2="532" y2="571" stroke="black" stroke-width="1"/>
+<polygon points="529,568 532,571 529,574" fill="black"/>
+
+<rect x="536" y="552" width="150" height="38" rx="3" fill="white" stroke="black" stroke-width="1"/>
+<text x="611" y="564" font-family="sans-serif" font-size="7.5" text-anchor="middle" fill="black" font-weight="bold">4. SIDEBAR DROP</text>
+<text x="611" y="576" font-family="sans-serif" font-size="6" text-anchor="middle" fill="black">Sidebar enters aligned</text>
+<text x="611" y="586" font-family="sans-serif" font-size="6" text-anchor="middle" fill="black">True Gates — lock opens</text>
+<line x1="686" y1="571" x2="699" y2="571" stroke="black" stroke-width="1"/>
+<polygon points="696,568 699,571 696,574" fill="black"/>
+
+<rect x="703" y="552" width="150" height="38" rx="3" fill="white" stroke="black" stroke-width="1"/>
+<text x="778" y="564" font-family="sans-serif" font-size="7.5" text-anchor="middle" fill="black" font-weight="bold">5. ROTATION</text>
+<text x="778" y="576" font-family="sans-serif" font-size="6" text-anchor="middle" fill="black">Drive Cam engages tailpiece</text>
+<text x="778" y="586" font-family="sans-serif" font-size="6" text-anchor="middle" fill="black">Plug rotates — mechanism unlocked</text>
+
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!-- SECTION 5: GATE DETAIL ZOOM (Top Right) -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<rect x="695" y="50" width="195" height="220" rx="4" fill="white" stroke="black" stroke-width="1.5"/>
+<text x="792" y="65" font-family="sans-serif" font-size="9" text-anchor="middle" fill="black" font-weight="bold">GATE DETAIL — ZOOMED</text>
+
+<!-- Single detailed disc -->
+<circle cx="765" cy="160" r="58" fill="white" stroke="black" stroke-width="2"/>
+<circle cx="765" cy="160" r="14" fill="white" stroke="black" stroke-width="1.5"/>
+<circle cx="765" cy="160" r="22" fill="none" stroke="black" stroke-width="0.6"/>
+
+<!-- TRUE GATE — square notch at 60° -->
+<rect x="790" y="150" width="16" height="16" fill="white" stroke="black" stroke-width="2" transform="rotate(60,798,158)"/>
+<text x="840" y="140" font-family="sans-serif" font-size="7.5" fill="black">TRUE GATE</text>
+<text x="840" y="150" font-family="sans-serif" font-size="6.5" fill="black">(square notch)</text>
+<line x1="815" y1="145" x2="808" y2="142" stroke="black" stroke-width="0.5"/>
+
+<!-- FALSE GATE 1 — U-shape at 200° -->
+<path d="M 736 177 Q 740 167 744 177" stroke="black" stroke-width="1.5" fill="none"/>
+<line x1="735" y1="176" x2="745" y2="176" stroke="black" stroke-width="1.2"/>
+<text x="715" y="195" font-family="sans-serif" font-size="7.5" fill="black">FALSE GATE</text>
+<text x="715" y="205" font-family="sans-serif" font-size="6.5" fill="black">(U-shaped notch)</text>
+<line x1="740" y1="188" x2="728" y2="198" stroke="black" stroke-width="0.5"/>
+
+<!-- FALSE GATE 2 — small circle at 310° -->
+<circle cx="795" cy="208" r="7" fill="white" stroke="black" stroke-width="1"/>
+<line x1="789" y1="208" x2="801" y2="208" stroke="black" stroke-width="1"/>
+<text x="830" y="218" font-family="sans-serif" font-size="7.5" fill="black">FALSE GATE</text>
+
+<!-- Sidebar pin (left side) -->
+<rect x="688" y="153" width="10" height="14" fill="white" stroke="black" stroke-width="1.5"/>
+<circle cx="693" cy="160" r="5" fill="white" stroke="black" stroke-width="1.2"/>
+<circle cx="693" cy="160" r="2" fill="black"/>
+<text x="685" y="147" font-family="sans-serif" font-size="7" text-anchor="end" fill="black">Sidebar Pin</text>
+
+<!-- Alignment channel arc (dashed) -->
+<path d="M 765 102 A 58 58 0 0 1 823 160" stroke="black" stroke-width="0.8" stroke-dasharray="3,3" fill="none"/>
+<text x="800" y="100" font-family="sans-serif" font-size="6" fill="black">Alignment Channel</text>
+
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!-- SECTION 6: DRIVE CAM DETAIL -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<rect x="695" y="280" width="195" height="130" rx="4" fill="white" stroke="black" stroke-width="1.5"/>
+<text x="792" y="295" font-family="sans-serif" font-size="9" text-anchor="middle" fill="black" font-weight="bold">DRIVE CAM &amp; CLUTCH</text>
+
+<!-- Drive cam circle -->
+<circle cx="760" cy="360" r="32" fill="white" stroke="black" stroke-width="1.5"/>
+<!-- Cam notch -->
+<rect x="757" y="328" width="6" height="10" fill="white" stroke="black" stroke-width="1"/>
+<!-- Inner detail ring -->
+<circle cx="760" cy="360" r="14" fill="none" stroke="black" stroke-width="0.8"/>
+<!-- Center dot -->
+<circle cx="760" cy="360" r="3" fill="black"/>
+
+<!-- Tailpiece -->
+<rect x="754" y="392" width="12" height="22" fill="white" stroke="black" stroke-width="1.2"/>
+<rect x="750" y="411" width="20" height="8" rx="2" fill="white" stroke="black" stroke-width="1.2"/>
+<text x="760" y="428" font-family="sans-serif" font-size="6" text-anchor="middle" fill="black">Tailpiece</text>
+
+<!-- Clutch state labels -->
+<text x="815" y="345" font-family="sans-serif" font-size="7" fill="black">Clutch: DISENGAGED</text>
+<text x="815" y="356" font-family="sans-serif" font-size="6.5" fill="black">(while sidebar extended)</text>
+<line x1="793" y1="350" x2="808" y2="350" stroke="black" stroke-width="0.5"/>
+
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!-- SECTION 7: COMPONENT LEGEND -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<rect x="695" y="420" width="195" height="120" rx="4" fill="white" stroke="black" stroke-width="1.5"/>
+<text x="792" y="434" font-family="sans-serif" font-size="9" text-anchor="middle" fill="black" font-weight="bold">COMPONENT LEGEND</text>
+
+<circle cx="708" cy="448" r="4" fill="white" stroke="black" stroke-width="1"/>
+<text x="718" y="451" font-family="sans-serif" font-size="7" fill="black">Disc (stainless steel tumbler)</text>
+
+<rect x="704" y="456" width="8" height="8" fill="white" stroke="black" stroke-width="1"/>
+<text x="718" y="463" font-family="sans-serif" font-size="7" fill="black">True Gate (square — correct depth)</text>
+
+<circle cx="708" cy="477" r="4" fill="white" stroke="black" stroke-width="1"/>
+<line x1="704" y1="477" x2="712" y2="477" stroke="black" stroke-width="1"/>
+<text x="718" y="480" font-family="sans-serif" font-size="7" fill="black">False Gate (U-shaped — deceptive)</text>
+
+<circle cx="708" cy="493" r="4" fill="white" stroke="black" stroke-width="1"/>
+<circle cx="708" cy="493" r="1.5" fill="black"/>
+<text x="718" y="496" font-family="sans-serif" font-size="7" fill="black">Sidebar Pin (hardened steel)</text>
+
+<line x1="704" y1="509" x2="712" y2="509" stroke="black" stroke-width="1.5" stroke-dasharray="2,2"/>
+<text x="718" y="512" font-family="sans-serif" font-size="7" fill="black">Friction Washer (phosphor bronze)</text>
+
+<rect x="704" y="521" width="8" height="8" fill="white" stroke="black" stroke-width="1"/>
+<text x="718" y="528" font-family="sans-serif" font-size="7" fill="black">Keyway Warding (hardened steel)</text>
+
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!-- SECTION 8: ANTI-PICK NOTE -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<rect x="695" y="548" width="195" height="45" rx="3" fill="#f8f8f8" stroke="black" stroke-width="1"/>
+<text x="792" y="561" font-family="sans-serif" font-size="8" text-anchor="middle" fill="black" font-weight="bold">ANTI-PICK RESISTANCE</text>
+<text x="702" y="573" font-family="sans-serif" font-size="6.5" fill="black">• False Gates mimic True Gate feedback — picker deceived</text>
+<text x="702" y="583" font-family="sans-serif" font-size="6.5" fill="black">• Springless design — impervious to bump/vibration picking</text>
+<text x="702" y="591" font-family="sans-serif" font-size="6.5" fill="black">• Tiered keyway — restricts tool insertion depth/angle</text>
+
+<!-- Top divider line -->
+<line x1="30" y1="48" x2="890" y2="48" stroke="black" stroke-width="0.5" stroke-dasharray="6,4"/>
+<!-- Section divider between faceplate and disc stack -->
+<line x1="158" y1="50" x2="158" y2="538" stroke="black" stroke-width="0.5" stroke-dasharray="4,4"/>
+<!-- Section divider between disc stack and plug -->
+<line x1="420" y1="50" x2="420" y2="538" stroke="black" stroke-width="0.5" stroke-dasharray="4,4"/>
+
+</svg>
